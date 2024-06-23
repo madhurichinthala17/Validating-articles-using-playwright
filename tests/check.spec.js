@@ -18,7 +18,6 @@ test('validate that articles are storted', async ({ page }) => {
             const ageElement = tr.nextElementSibling.querySelector('.age');
             const ageText = ageElement ? ageElement.innerText : null;
             const timeText = ageElement ? ageElement.getAttribute('title') : null;
-           
             return {
                 titleText,
                 ageText,
