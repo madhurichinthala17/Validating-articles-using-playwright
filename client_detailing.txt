@@ -1,0 +1,23 @@
+                                  CLIENT DETAILING
+                                --------------------
+                                  MADHURI CHINTHALA
+
+HOW TO RUN THE PROJECT :
+
+➢ Install Visual Studio Code on your Laptop.
+Reference : https://www.youtube.com/watch?v=cu_ykIfBprI&ab_channel=ProgrammingKnowledge
+
+➢ Install npm node js in VS Code.
+Reference : https://youtu.be/eft-LJb4kW0?si=hR37JZAIMyP2_PpL
+
+➢ Install Playwright in VS Code.
+ Reference : https://youtu.be/zksrIRwaVlc?si=w1b75Nr9zdSrLZUV
+
+➢ Set up the Project (using GitHub link or zip folder)
+
+➢ Then ,use below command to run:
+
+• npx playwright test ./tests/check.spec.js --headed
+
+➢ You can opt to run in any browser of your choice , to do this please update the browser in 
+`playwright.config.js` file. By default , it is set to `Desktop Chrome`.
